@@ -7,11 +7,22 @@
 	#cuadro-dos{
 		width: 400px;
 	}
+	.imagen-texto{
+		visibility: hidden;
+		width: 0px;
+		height: 0px;
+	}
 	
 }
-@media screen and (min-width: 72em) {
+@media screen and (min-width: 70em) {
 	#cuadro-dos{
 		width: 400px;
+	}
+	
+	.imagen-texto{
+		visibility: hidden;
+		width: 0px;
+		height: 0px;
 	}
 	
 }
@@ -145,6 +156,11 @@
 		display:block;
 		margin:5px 0 0
 	}
+	.imagen-texto{
+		visibility: hidden;
+		width: 0px;
+		height: 0px;
+	}
 }
 
 /* width: 991px; */
@@ -161,7 +177,12 @@
 		background-color: #ffff;
 		
 	} */
-	
+	#menu-imagen .button-menu {
+		
+		text-align: center;
+		margin-left: 245px;
+		
+	}
 	.fotografia .menu-foto h3{
 		margin-top: 195px;
 		margin-left: -20px;
@@ -250,12 +271,14 @@
 		
 	}
 	.package-box .button-info{
-		border: #C4898A 3px solid;
+		border: #A98D55 1px solid;
+
 		width: 250px;
 		height: 35px;
 		background: #EDDBDB ;
-		border-radius: 15px;
+		border-radius: 10px;
 		margin-left: 130px;
+		padding: 5px;
 	}
 	.package-box #productos {
 		margin-left: 10px;
@@ -614,6 +637,11 @@
 	.news-single .section-header ul li{
 		margin:0 20px 0 0;
 	}
+	.imagen-texto{
+		visibility: hidden;
+		width: 0px;
+		height: 0px;
+	}
 	
 }
 @media screen and (max-width: 55em) {
@@ -685,11 +713,13 @@
 		
 	}
 	.package-box .button-info{
-		border: #C4898A 3px solid;
+	
+	border: #A98D55 1px solid;
+
 		width: 250px;
 		height: 35px;
 		background: #EDDBDB ;
-		border-radius: 15px;
+		border-radius: 10px;
 		margin-left: 130px;
 	}
 	.package-box #productos {
@@ -754,6 +784,11 @@
 		background-repeat: no-repeat;
 		
 	}
+	.imagen-texto{
+		visibility: hidden;
+		width: 0px;
+		height: 0px;
+	}
 }
 /* width 768px */
 @media screen and (max-width: 48em) {
@@ -791,20 +826,33 @@
 	
 		
 	}
+	/* .imagen-texto {
+	width: 500px;
+		visibility: visible;
+		margin-left: ;
+
+	} */
 	.imagen-texto{
 		border:  #BCA984 2px solid;
 		width: 180px;
 		height: 25px;
 		background-color: #EDDBDB;
-		border-radius: 15px;
-		margin-left: 60px;	
-		padding-top: 3px;
+		border-radius: 10px;
+		margin-left: 230px;	
+		visibility: visible;
+		padding: 5px;
+
 	}
-	 .imagen-texto div::after{
-		content: "NUESTRO MENÚ ";
-		color: #C4898A;
-		margin-left: 35px;
+	.imagen-texto a{
+	
+		margin-left: 40px;	
+		
+
 	}
+	 /* .imagen-texto div::after{
+		
+		visibility: visible;
+	} */
 	.servicio-producto{
 		width: auto;
 	}
@@ -868,11 +916,13 @@
 		
 	}
 	.package-box .button-info{
-		border: #C4898A 3px solid;
+		
+	border: #A98D55 1px solid;
+
 		width: 250px;
 		height: 35px;
 		background: #EDDBDB ;
-		border-radius: 15px;
+		border-radius: 10px;
 		margin-left: 95px;
 	}
 	.package-box #productos {
@@ -1346,11 +1396,12 @@
 		
 	}
 	.package-box .button-info{
-		border: #C4898A 3px solid;
+		border: #A98D55 1px solid;
+
 		width: 250px;
 		height: 35px;
 		background: #EDDBDB ;
-		border-radius: 15px;
+		border-radius: 10px;
 		margin-left: 95px;
 	}
 	.package-box #productos {
@@ -1410,29 +1461,19 @@
 		width: 180px;
 		height: 25px;
 		background-color: #EDDBDB;
-		border-radius: 15px;
-		margin-left: 60px;	
-		padding-top: 3px;
+		border-radius: 10px;
+		margin-left: 230px;	
+		visibility: visible;
+		padding: 5px;
+
 	}
-	 .imagen-texto div::after{
-		content: "NUESTRO MENÚ ";
-		color: #C4898A;
-		margin-left: 35px;
+	.imagen-texto a{
+	
+		margin-left: 40px;	
+		
+
 	}
-	.imagen-texto{
-		border:  #BCA984 2px solid;
-		width: 180px;
-		height: 25px;
-		background-color: #EDDBDB;
-		border-radius: 15px;
-		margin-left: 60px;	
-		padding-top: 3px;
-	}
-	 .imagen-texto div::after{
-		content: "NUESTRO MENÚ ";
-		color: #C4898A;
-		margin-left: 35px;
-	}
+	
 	#slide{
 		visibility: hidden;
 		width: 0px;
@@ -1560,17 +1601,18 @@
 		
 	}
 	.package-box .button-info{
-		border: #C4898A 3px solid;
+		border: #A98D55 1px solid;
+
 		width: 250px;
 		height: 35px;
 		background: #EDDBDB ;
-		border-radius: 15px;
+		border-radius: 10px;
 		margin-left: -15px;
 	}
 	.package-box #productos {
 		margin-left: 10px;
 	}
-	.imagen-texto{
+	/* .imagen-texto{
 		border:  #BCA984 2px solid;
 		width: 180px;
 		height: 25px;
@@ -1583,6 +1625,23 @@
 		content: "NUESTRO MENÚ ";
 		color: #C4898A;
 		margin-left: 35px;
+	} */
+	.imagen-texto{
+		border:  #BCA984 2px solid;
+		width: 180px;
+		height: 25px;
+		background-color: #EDDBDB;
+		border-radius: 10px;
+		margin-left: 140px;	
+		visibility: visible;
+		padding: 5px;
+
+	}
+	.imagen-texto a{
+	
+		margin-left: 40px;	
+		
+
 	}
 	
 }
@@ -1667,11 +1726,12 @@
 		
 	}
 	.package-box .button-info{
-		border: #C4898A 3px solid;
+		border: #A98D55 1px solid;
+
 		width: 250px;
 		height: 35px;
 		background: #EDDBDB ;
-		border-radius: 15px;
+		border-radius: 10px;
 		margin-left: 15px;
 	}
 	.package-box #productos {
@@ -1739,14 +1799,17 @@
 		width: 180px;
 		height: 25px;
 		background-color: #EDDBDB;
-		border-radius: 15px;
-		margin-left: 60px;	
-		padding-top: 3px;
+		border-radius: 10px;
+		margin-left: 170px;	
+		visibility: visible;
+		padding: 5px;
+
 	}
-	 .imagen-texto div::after{
-		content: "NUESTRO MENÚ ";
-		color: #C4898A;
-		margin-left: 35px;
+	.imagen-texto a{
+	
+		margin-left: 40px;	
+		
+
 	}
 	#slide{
 		visibility: hidden;
@@ -1890,11 +1953,12 @@
 		
 	}
 	.package-box .button-info{
-		border: #C4898A 3px solid;
+		border: #A98D55 1px solid;
+
 		width: 250px;
 		height: 35px;
 		background: #EDDBDB ;
-		border-radius: 15px;
+		border-radius: 10px;
 		margin-left: 15px;
 	}
 	.package-box #productos {
@@ -1954,14 +2018,17 @@
 		width: 180px;
 		height: 25px;
 		background-color: #EDDBDB;
-		border-radius: 15px;
-		margin-left: 60px;	
-		padding-top: 3px;
+		border-radius: 10px;
+		margin-left: 160px;	
+		visibility: visible;
+		padding: 5px;
+
 	}
-	 .imagen-texto div::after{
-		content: "NUESTRO MENÚ ";
-		color: #C4898A;
-		margin-left: 35px;
+	.imagen-texto a{
+	
+		margin-left: 40px;	
+		
+
 	}
 	#slide{
 		visibility: hidden;
@@ -2092,11 +2159,12 @@
 		
 	}
 	.package-box .button-info{
-		border: #C4898A 3px solid;
+		border: #A98D55 1px solid;
+
 		width: 250px;
 		height: 35px;
 		background: #EDDBDB ;
-		border-radius: 15px;
+		border-radius: 10px;
 		margin-left: -15px;
 	}
 	#imagen-u{
@@ -2148,7 +2216,7 @@
 		width: 0px;
 		height: 0px;
 	}
-	.imagen-texto{
+	/* .imagen-texto{
 		border:  #BCA984 2px solid;
 		width: 180px;
 		height: 25px;
@@ -2161,7 +2229,7 @@
 		content: "NUESTRO MENÚ ";
 		color: #C4898A;
 		margin-left: 35px;
-	}
+	} */
 	#slide{
 		visibility: hidden;
 		width: 0px;
@@ -2226,7 +2294,7 @@
 
 
 /* width 480px */
-@media screen and (max-width: 30em) {
+@media screen and (max-width: 31em) {
 	
 	.mobile-navigation > ul > li:nth-child(2),
 	.mobile-navigation > ul > li:nth-child(3){
@@ -2323,11 +2391,12 @@
 		
 	}
 	.package-box .button-info{
-		border: #C4898A 3px solid;
+		border: #A98D55 1px solid;
+
 		width: 250px;
 		height: 35px;
 		background: #EDDBDB ;
-		border-radius: 15px;
+		border-radius: 10px;
 		margin-left: 22px;
 	}
 
@@ -2382,6 +2451,7 @@
 		width: 0px;
 		height: 0px;
 	}
+	
 	#slide{
 		visibility: hidden;
 		width: 0px;
@@ -2507,14 +2577,17 @@
 		width: 180px;
 		height: 25px;
 		background-color: #EDDBDB;
-		border-radius: 15px;
-		margin-left: 60px;	
-		padding-top: 3px;
+		border-radius: 10px;
+		margin-left: 110px;	
+		visibility: visible;
+		padding: 5px;
+
 	}
-	 .imagen-texto div::after{
-		content: "NUESTRO MENÚ ";
-		color: #C4898A;
-		margin-left: 35px;
+	.imagen-texto a{
+	
+		margin-left: 30px;	
+		
+
 	}
 
 }
@@ -2548,14 +2621,17 @@
 		width: 180px;
 		height: 25px;
 		background-color: #EDDBDB;
-		border-radius: 15px;
-		margin-left: 60px;	
-		padding-top: 3px;
+		border-radius: 10px;
+		margin-left: 110px;	
+		visibility: visible;
+		padding: 5px;
+
 	}
-	 .imagen-texto div::after{
-		content: "NUESTRO MENÚ ";
-		color: #C4898A;
-		margin-left: 35px;
+	.imagen-texto a{
+	
+		margin-left: 30px;	
+		
+
 	}
 }	
 @media screen and (max-width: 26em) {
@@ -2701,11 +2777,12 @@
 		
 	}
 	.package-box .button-info{
-		border: #C4898A 3px solid;
+		border: #A98D55 1px solid;
+
 		width: 250px;
 		height: 35px;
 		background: #EDDBDB ;
-		border-radius: 15px;
+		border-radius: 10px;
 		margin-left: -15px;
 	}
 	.imagen-texto{
@@ -2713,14 +2790,17 @@
 		width: 180px;
 		height: 25px;
 		background-color: #EDDBDB;
-		border-radius: 15px;
-		margin-left: 60px;	
-		padding-top: 3px;
+		border-radius: 10px;
+		margin-left: 75px;	
+		visibility: visible;
+		padding: 5px;
+
 	}
-	 .imagen-texto div::after{
-		content: "NUESTRO MENÚ ";
-		color: #C4898A;
-		margin-left: 35px;
+	.imagen-texto a{
+	
+		margin-left: 30px;	
+		
+
 	}
 	
 	
@@ -2870,11 +2950,12 @@
 		
 	}
 	.package-box .button-info{
-		border: #C4898A 3px solid;
+		border: #A98D55 1px solid;
+
 		width: 250px;
 		height: 35px;
 		background: #EDDBDB ;
-		border-radius: 15px;
+		border-radius: 10px;
 		margin-left: -15px;
 	}
 	.imagen-texto{
@@ -2882,14 +2963,17 @@
 		width: 180px;
 		height: 25px;
 		background-color: #EDDBDB;
-		border-radius: 15px;
-		margin-left: 60px;	
-		padding-top: 3px;
+		border-radius: 10px;
+		margin-left: 65px;	
+		visibility: visible;
+		padding: 5px;
+
 	}
-	 .imagen-texto div::after{
-		content: "NUESTRO MENÚ ";
-		color: #C4898A;
-		margin-left: 35px;
+	.imagen-texto a{
+	
+		margin-left: 30px;	
+		
+
 	}
 	
 }	
@@ -2988,11 +3072,12 @@
 		
 	}
 	.package-box .button-info{
-		border: #C4898A 3px solid;
+		border: #A98D55 1px solid;
+
 		width: 150px;
 		height: 25px;
 		background: #EDDBDB ;
-		border-radius: 15px;
+		border-radius: 10px;
 		margin-left: 5px;
 	}
 	#imagen-u{
@@ -3040,21 +3125,24 @@
 		width: 0px;
 		height: 0px;
 	}
- .imagen-texto{
+	.imagen-texto{
 		border:  #BCA984 2px solid;
 		width: 180px;
 		height: 25px;
 		background-color: #EDDBDB;
-		border-radius: 15px;
-		margin-left: 40px;	
-		padding-top: 3px;
+		border-radius: 10px;
+		margin-left: 60px;	
+		visibility: visible;
+		padding: 5px;
+
 	}
-	 .imagen-texto div::after{
-		content: "NUESTRO MENÚ ";
+	.imagen-texto a{
 	
-		color: #C4898A;
-		margin-top: 20px;
+		margin-left: 30px;	
+		
+
 	}
+	
 	#slide{
 		visibility: hidden;
 		width: 0px;
