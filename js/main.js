@@ -103,7 +103,27 @@
 			}
 		}
 	 });
-	
+	 if ($('.js-form').length > 0) {
+		$('.js-form').each(function(){
+			$(this).validate({
+				errorClass: 'error wobble-error',
+			    submitHandler: function(form){
+		        	$.ajax({
+			            type: "POST",
+			            url:"enviar.php",
+			            data: $(form).serialize(),
+			            success: function() {
+		                	$('.success-message').show();
+		                },
+
+		                error: function(){
+			                $('.error-message').show();
+			            }
+			        });
+			    }
+			});
+		});
+	}
 	
 	  
 })(jQuery);

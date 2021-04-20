@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^thelash.mx [NC]
+RewriteRule ^(.*)$ https://www.thelash.mx/$1 [L,R=301]
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+</IfModule>

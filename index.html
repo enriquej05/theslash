@@ -27,7 +27,7 @@
 	</head>
 
 	<body>
-		<header id="masthead" class="site-header">
+		<header id="masthead" class="site-header" style="position:fixed;">
 			<div class="container">
 				<div class="row">
 					<div class="site-branding col-sm-2">
@@ -40,12 +40,12 @@
 
 					<div class="col-sm-10">
 						<nav id="site-navigation" class="navbar">
-							<div class="collapse navbar-collapse navbar-ex1-collapse">
+							<div class="collapse navbar-collapse navbar-ex1-collapse ">
 								<ul class="nav navbar-nav">
 									<li><a href="index.html">Inicio</a></li>
 									<li><a href="#servicios">¿COMÓ ELEGIR TU SERVICIO?</a></li>
 									<li><a href="menu.html">MENÚ</a></li>
-									<li><a href="contact-us.html">CONTACTO</a></li>
+									<li><a href="contacto.html">CONTACTO</a></li>
 
 								</ul>
 								<!-- <ul class="nav navbar-nav">
@@ -151,7 +151,7 @@
 									<li><a href="index.html">Inicio</a></li>
 									<li><a href="#servicios">¿COMÓ ELEGIR TU SERVICIO?</a></li>
 									<li><a href="menu.html">MENÚ</a></li>
-									<li><a href="contact-us.html">CONTACTO</a></li>
+									<li><a href="contacto.html">CONTACTO</a></li>
 								</ul>
 							</div>
 						</nav>
@@ -175,13 +175,13 @@
 
 								<div class="carousel-inner" role="listbox">
 									<div class="item active">
-										<img src="images/slider-1.jpg" alt="image">
+										<img src="images/IMG_6588-HDR-Editar.jpg" alt="image">
 										<div class="carousel-caption">
 											<div class="carousel-caption-content">
 												<h2>
 													<strong>Bienvenida</strong>
 													<span>
-														al primer concepto premium de 
+														Al primer concepto premium de 
 													pestañas en Cancún
 													</span>
 												
@@ -190,13 +190,13 @@
 										</div>
 									</div>
 									<div class="item">
-										<img src="images/slider-1.jpg" alt="image">
+										<img src="images/IMG_6588-HDR-Editar.jpg" alt="image">
 										  <div class="carousel-caption">
 											<div class="carousel-caption-content">
 												<h2>
 													<strong>Bienvenida</strong>
 													<span>
-														al primer concepto premium de 
+														Al primer concepto premium de 
 													pestañas en Cancún
 													</span>
 												</h2>
@@ -205,13 +205,13 @@
 										</div>
 									</div>
 									<div class="item">
-										<img src="images/slider-1.jpg" alt="image">
+										<img src="images/IMG_6588-HDR-Editar.jpg" alt="image">
 										 <div class="carousel-caption">
 											<div class="carousel-caption-content">
 												<h2>
 													<strong>Bienvenida</strong>
 													<span>
-														al primer concepto premium de 
+														Al primer concepto premium de 
 													pestañas en Cancún
 													</span>
 												</h2>
@@ -229,7 +229,7 @@
 							<div class="row">
 								<div class="section-header clearfix">
 									<!-- <span>We are Makeup Specialist</span> -->
-									<h2>SOMOS EXPERTAS EN EXTENSIONES DE PESTAÑAS</h2>
+									<h2>SOMOS ESPECIALISTAS EN CREAR NUEVAS MIRADAS</h2>
 									<div class="col-md-12">
 										<!-- <img src="images/makeup-services-img.jpg" alt="image"> -->
 										<video width="1100px" height="600px" autoplay muted loop id="videobg2">
@@ -253,13 +253,13 @@
 														</div>
 														<div>
 															<div class="section-content">
-																<div class="col-md-3 col-lg-3 servicio-producto" >
+																<div class="col-md-3 col-lg-3 servicio-producto" id="servicio-inicio" >
 	
 																	<div class="package-box">
 																		<h4 id="numero-uno">1</h4>
 													<!-- <div class="numero"><strong>1</strong></div> -->
 																		<div class="info" >
-																			<h3 class="encabezado" >
+																			<h3 class="encabezado" id="cabeza">
 																				
 																				<span>Elige la cobertura de tus</span> pestañas
 																			</h3>
@@ -297,7 +297,7 @@
 																</div>
 																<div class="imagen-texto">
 																	
-																		<a href="menu.html">NUESTRO MENÚ</a>
+																		<a href="menu.php">NUESTRO MENÚ</a>
 																	
 																</div>
 																<div id="imagen-u">
@@ -310,7 +310,7 @@
 																		<h4 id="numero-dos">2</h4>
 													<!-- <div class="numero"><strong>1</strong></div> -->
 																		<div class="info" >
-																			<h3 class="encabezado-dos" >
+																			<h3 class="encabezado-dos">
 																				
 																				<span>Elige tu</span> experiencia:
 																			</h3>
@@ -388,14 +388,14 @@
 																</div>
 																<div class="imagen-texto">
 																	
-																	<a href="menu.html">NUESTRO MENÚ</a>
+																	<a href="menu.php">NUESTRO MENÚ</a>
 																
 															</div>
 																<div id="imagen-d">
 																	
 																</div>
 																<div id="espacio"></div>
-																<div class="col-md-5 col-lg-5 servicio-productos">
+																<div class="col-md-5 col-lg-5 servicio-productos" id="servicio-inicio">
 																	<div class="package-box">
 
 																		<h4 id="numero-tres">3</h4>
@@ -455,7 +455,7 @@
 																			</div>
 																				<div class="collapse navbar-collapse" id="collapservicio">
 																					<div class="card card-body">
-																						<ul  id="productos">
+																						<ul  id="servicios-b">
 																							<li type="disc" id="item" >Lash Lifting+Botox </li>
 																							<li type="disc"  id="item">Brow Lifting </li>
 																							<li type="disc"  id="item">Botox</li>
@@ -469,19 +469,21 @@
 																							<li id="item-price">$150mxn</li>
 																							<li id="item-price">$50mxn</li>
 																							<li id="item-price">$150mxn</li>
-				
+																							
 																							<li  type="disc"  id="item">Retiro TheLash&Co</li>
 																							<li type="disc"  id="item">Retiro Externo</li>
 																							<li type="disc"  id="item">New App(Clientes)</li>
 																							<li type="disc"  id="item">Face Desing</li>
 																							<li type="disc"  id="item" class="union">Aumento cobertura</li>
-																							<br>
-				
+																							<li type="disc" id="li-hidden"></li>
+																							
 																							<li id="item-price">$230mxn</li>
 																							<li id="item-price">Valoración</li>
 																							<li id="item-price">40% OFF</li>
 																							<li id="item-price">$1,490mxn</li>
 																							<li id="item-price">Valoración</li>
+																							<li></li>
+
 																							
 																						</ul>
 																					</div>
@@ -492,7 +494,7 @@
 																</div>
 																<div class="imagen-texto">
 																	
-																	<a href="menu.html">NUESTRO MENÚ</a>
+																	<a href="menu.php">NUESTRO MENÚ</a>
 																
 															</div>
 																<div id="imagen-t">
@@ -524,11 +526,11 @@
 											<div class="section-header clearfix" id="menu-imagen">
 												
 												<div class="button-menu">
-												<h2><a href="menu.html">NUESTRO MENÚ</a></h2>
+												<h2><a href="menu.php">NUESTRO MENÚ</a></h2>
 
 												</div>
-												<div class="section-break"></div>
 											</div>
+											<div class="section-break"></div>
 											<div class="section-content" id="imagenes">
 												<div class="col-sm-6 col-md-4" id="imagen-uno-2">
 													
@@ -586,20 +588,25 @@
 									<div class="section-break"></div>
 								</div>
 								<div class="section-content">
-									<div class="col-sm-4">
-										<img src="images/how-it-works-1.png" alt="image">
+									<div class="col-sm-3">
+										<img src="images/descubrethelash.png" alt="image">
 										<h3>1. Descubre</h3>
-										<p>Elige tus servicios de acuerdo a tus necesidades</p>
+										<p>Elige el servicio que más te guste</p>
 									</div>
-									<div class="col-sm-4">
-										<img src="images/how-it-works-2.png" alt="image">
+									<div class="col-sm-3">
+										<img src="images/Reserva.png" alt="image">
 										<h3>2. Reserva</h3>
-										<p>Elige tus servicios y reserva </p>
+										<p>Haz tu si cita con tiempo </p>
 									</div>
-									<div class="col-sm-4">
-										<img src="images/how-it-works-3.png" alt="image">
-										<h3>3. Disfruta</h3>
-										<p>Disfruta de tu nueva mirada</p>
+									<div class="col-sm-3">
+										<img src="images/Lista.png" alt="image">
+										<h3>3. ¿Lista?</h3>
+										<p>Recuerda asistir puntual y con tus pestañas y/o cejas limpias </p>
+									</div>
+									<div class="col-sm-3">
+										<img src="images/Disfruta.png" alt="image">
+										<h3>3. ¡Disfruta!</h3>
+										<p>De esta experiencia y tú nueva mirada</p>
 									</div>
 								</div>
 							</div>
@@ -618,7 +625,7 @@
 										<div class="item active">
 											<p>Excelente trabajo me quedaron como nunca las había tenido estoy fascinada además es un sitio HERMOSO y su atención  acogedor  y la atención especial  es un sitio vip lo súper recomiendo  si piensa en tu belleza ve con ellos no lo pienses  graciass</p>
 											<div class="carousel-caption">
-												<img src="images/mujer.png" alt="image" style="width:80px; height: 80px;">
+												<img src="images/cliente1.jpg" alt="image" style="width:80px; height: 80px;">
 												<strong>
 													Ana Lucia Vallejo
 													<span>Cliente</span>
@@ -629,7 +636,7 @@
 											<p>Me encantan mis pestañas ! Súper recomiendo este lugar tan hermoso 🤩
 											</p>
 											<div class="carousel-caption">
-												<img src="images/mujer.png" alt="image" style="width:80px; height: 80px;">
+												<img src="images/cliente2.jpg" alt="image" style="width:80px; height: 80px;">
 
 												<strong>
 													Mila Maksimova
@@ -640,7 +647,7 @@
 										<div class="item">
 											<p>Ellos son los mejores :)</p>
 											<div class="carousel-caption">
-												<img src="images/mujer.png" alt="image" style="width:80px; height: 80px;">
+												<img src="images/cliente3.jpeg" alt="image" style="width:80px; height: 80px;">
 
 												<strong>
 													Cosmicalpowers
@@ -708,76 +715,7 @@
 						</div>
 					</section>
 					
-					<section class="latest-news">
-						<div class="section-header clearfix">
-							<span>Nos apasiona atenderte</span>
-							<h2><strong>Nuestras</strong> lashistas</h2>
-							<div class="section-break"></div>
-						</div>
-						<div class="section-content">
-							<div class="container">
-								<div class="row">
-									<div class="col-md-4">
-										<div class="news-box">
-											<div class="news-box-image">
-												<a href="#">
-													<img src="images/latest-news-1.jpg" alt="image">
-												</a>
-											</div>
-											<div class="news-box-content">
-												<span class="date-meta">March 15, 2016</span>
-												<h3>
-													<a href="#">How to : Classic Lipstick Using With Lisa Eldridge</a>
-												</h3>
-												<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-											</div>
-											<div class="news-box-link">
-												<a href="#">Read More</a>
-											</div>
-										</div>
-									</div>
-									<div class="col-md-4">
-										<div class="news-box">
-											<div class="news-box-image">
-												<a href="#">
-													<img src="images/latest-news-2.jpg" alt="image">
-												</a>
-											</div>
-											<div class="news-box-content">
-												<span class="date-meta">March 15, 2016</span>
-												<h3>
-													<a href="#">Tips and Trick : The Latest Treatments for Hair Loss</a>
-												</h3>
-												<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-											</div>
-											<div class="news-box-link">
-												<a href="#">Read More</a>
-											</div>
-										</div>
-									</div>
-									<div class="col-md-4">
-										<div class="news-box">
-											<div class="news-box-image">
-												<a href="#">
-													<img src="images/latest-news-3.jpg" alt="image">
-												</a>
-											</div>
-											<div class="news-box-content">
-												<span class="date-meta">March 15, 2016</span>
-												<h3>
-													<a href="#">How to Choose the Best Bridal Makeup for Your Wedding Day</a>
-												</h3>
-												<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-											</div>
-											<div class="news-box-link">
-												<a href="#">Read More</a>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</section>
+				
 					
 					
 					
@@ -798,9 +736,9 @@
 							<div class="footer-links">
 								<ul>
 									<li><a href="index.html">Inicio</a></li>
-									<li><a href="#">¿COMÓ ELEGIR TU SERVICIO?</a></li>
-									<li><a href="#">MENÚ</a></li>
-									<li><a href="#">CONTACTO</a></li>
+									<li><a href="#servicios">¿COMÓ ELEGIR TU SERVICIO?</a></li>
+									<li><a href="menu.html">MENÚ</a></li>
+									<li><a href="contacto.html">CONTACTO</a></li>
 								
 								</ul>
 							</div>
